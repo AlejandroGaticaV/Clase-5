@@ -22,3 +22,18 @@ let objetoDatos={
 console.log(datos)
 console.log(edades)
 console.log(objetoDatos)
+
+//operadores relacionales
+/*
+>
+<
+>=
+<=
+==
+!=
+===
+*/
+
+let uno=1
+let unoString="1"
+
