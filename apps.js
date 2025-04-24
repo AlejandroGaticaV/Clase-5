@@ -37,3 +37,35 @@ console.log(objetoDatos)
 let uno=1
 let unoString="1"
 
+console.log(uno==unoString)
+console.log(uno===unoString)
+
+//estructuras de control
+
+if (uno==unoString)
+    console.log("Son Iguales ?")
+if (uno===unoString){
+    console.log("son Iguales")
+}
+else{
+    console.log("No son Iguales")
+}
+
+let tipoAlumno="diurno"
+
+switch (tipoAlumno) {
+    case "diurno":
+        console.log("Es alumno de día")
+        break;
+    case "vespertino":
+        console.log("Es alumno de noche")
+    default:
+        console.log("No es alumno")
+}
+
+//ciclos
+
+//while
+
+/* mostrar los primeros 10 numeros positivos */
+
